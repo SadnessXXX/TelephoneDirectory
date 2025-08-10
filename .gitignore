@@ -54,3 +54,6 @@ dkms.conf
 # debug information files
 *.dwo
 *.db-shm
+*.opendb
+/.vs/TelephoneDirectory/v17/Browse.VC.db
+*.db-wal
