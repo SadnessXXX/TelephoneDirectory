@@ -1,59 +1,53 @@
-# Prerequisites
-*.d
-
-# Object files
+# Компиляционные файлы
 *.o
-*.ko
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.dll
+*.so
+*.a
+*.lib
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# Папки сборки и временные файлы
+/build/
+/bin/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# Файлы Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.user
+*.filters
+
+# Файлы Code::Blocks
+*.depend
+*.layout
+*.cbp
+
+# Файлы Makefile и CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Файлы отладки
 *.pdb
+*.ilk
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Логи и другие временные файлы
+*.log
+*.tmp
 
-# debug information files
-*.dwo
-*.db-shm
-*.opendb
-/.vs/TelephoneDirectory/v17/Browse.VC.db
-*.db-wal
+# Файлы редактора
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# Другие системные файлы
+.DS_Store
+Thumbs.db

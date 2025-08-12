@@ -18,7 +18,10 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sourse\choise.c">
+    <ClCompile Include="sourse\data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sourse\menu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -27,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="header\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

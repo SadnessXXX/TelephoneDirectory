@@ -124,11 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="sourse\choise.c" />
+    <ClCompile Include="sourse\data.c" />
+    <ClCompile Include="sourse\menu.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\data.h" />
     <ClInclude Include="header\defines.h" />
+    <ClInclude Include="header\menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
