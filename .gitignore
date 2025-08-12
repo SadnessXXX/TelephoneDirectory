@@ -1,53 +1,39 @@
-# Компиляционные файлы
-*.o
-*.obj
-*.exe
-*.out
-*.dll
-*.so
-*.a
-*.lib
-
-# Папки сборки и временные файлы
-/build/
-/bin/
-/Debug/
-/Release/
-/x64/
-/x86/
-
-# Файлы Visual Studio
+# Visual Studio
 .vs/
 *.vcxproj*
 *.sln
 *.user
 *.filters
+*.dbmdl
+*.VC.db
+*.VC.opendb
 
-# Файлы Code::Blocks
-*.depend
-*.layout
-*.cbp
+# Build results
+Debug/
+DebugPublic/
+Release/
+x64/
+x86/
+build/
+bin/
 
-# Файлы Makefile и CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Файлы отладки
+# Compiled object files and libraries
+*.obj
+*.o
+*.lib
+*.dll
+*.exe
 *.pdb
-*.ilk
 
-# Логи и другие временные файлы
+# Others
 *.log
 *.tmp
+*.cache
+*.ilk
 
-# Файлы редактора
-*.swp
-*.swo
-*.idea/
-*.vscode/
+# Visual Studio Code
+.vscode/
 
-# Другие системные файлы
-.DS_Store
+# System files
 Thumbs.db
+.DS_Store
