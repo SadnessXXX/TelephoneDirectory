@@ -7,12 +7,16 @@
 typedef struct {
 	char FullName[NAME_LENGHT];
 	char Phone[PHONE_LENGHT];
-} DATA;
+} Entry;
 
+typedef struct {
+	
+} PhoneBook;
 
-void add();
-void remove();
-void search();
+void addRecord();
+void removeRecord();
+void searchRecord();
+void manageRecord();
 
 
 #endif // !DATA_H

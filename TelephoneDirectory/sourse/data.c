@@ -1,12 +1,17 @@
 #include "../header/data.h"
 
-void add(){
+void addRecord(){
 
 }
 
-void remove() {
+void removeRecord() {
 
 }
-void search() {
+
+void searchRecord() {
+
+}
+
+void manageRecord(){
 
 }
