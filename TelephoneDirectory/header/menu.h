@@ -3,7 +3,6 @@
 
 
 void init();
-void run();
 void choise();
 void clear();
 

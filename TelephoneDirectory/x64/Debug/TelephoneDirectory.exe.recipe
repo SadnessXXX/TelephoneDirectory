@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Programming\cpp\TelephoneDirectory\x64\Debug\TelephoneDirectory.exe</FullPath>
+      <FullPath>C:\dev\cpp\TelephoneDirectory\x64\Debug\TelephoneDirectory.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

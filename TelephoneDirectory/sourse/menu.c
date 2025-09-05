@@ -1,42 +1,44 @@
+#include "../header/defines.h"
 #include "../header/menu.h"
 #include "../header/data.h"
-#include "../header/defines.h"
 
 #include <stdio.h>
 
 
-void init(){
-	
-}
 
-void run(){
-
-}
-
-void choise()
+void init(PhoneBook* book)
 {
-	int Choise;
+	int op = 0;
 
-	printf("Select an operation:\n1. add a record.\n2. Delete a record.\n3. search a record.\n4. Manage a record.\nSelect an action: ");
+	for (;;) {
+		printf("Select an operation:\n1. add a record.\n2. Delete a record.\n3. search a record.\n4. Manage a record.\nSelect an action: ");
 
-	(void)scanf("%d", &Choise);
+		(void)scanf("%d", &op);
 
-	switch (Choise) {
+		if (op == 0) break;
+		switch (op) {
 		case 1:
-			addRecord();
+			addRecord(&book);
 			break;
 		case 2:
-			removeRecord();
+			showInfo(&book);
 			break;
 		case 3:
-			searchRecord();
+			removeRecord(&book);
 			break;
 		case 4:
-			manageRecord();
+			searchRecord(&book);
 			break;
+		case 5:
+			manageRecord(&book);
+			break;
+		}
 	}
 }
 
-void clear(){
-
+void clear(PhoneBook* book){
+	for (int i = 0; i < book->size; ++i) {
+		free(book->entryList[i]);
+	}
+	free(book->entryList);
 }

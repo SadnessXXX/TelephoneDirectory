@@ -1,7 +1,10 @@
 #ifndef DATA_H
 #define DATA_H
 
+
 #include "defines.h"
+
+#include <stddef.h>
 
 
 typedef struct {
@@ -10,13 +13,15 @@ typedef struct {
 } Entry;
 
 typedef struct {
-	
+	Entry** entryList;
+	size_t size;
 } PhoneBook;
 
-void addRecord();
-void removeRecord();
-void searchRecord();
-void manageRecord();
+void addRecord(PhoneBook *book);
+void showInfo(PhoneBook* book);
+void removeRecord(PhoneBook* book);
+void searchRecord(PhoneBook* book);
+void manageRecord(PhoneBook* book);
 
 
 #endif // !DATA_H
