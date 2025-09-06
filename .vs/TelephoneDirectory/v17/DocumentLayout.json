@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\sourse\\data.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\header\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\sourse\\menu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\sourse\\menu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\header\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\header\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\header\\defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08A34216-329C-468C-A555-EB067AABE560}|TelephoneDirectory\\TelephoneDirectory.vcxproj|solutionrelative:TelephoneDirectory\\header\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "data.h",
               "DocumentMoniker": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\data.h",
               "RelativeDocumentMoniker": "TelephoneDirectory\\header\\data.h",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\data.h",
               "RelativeToolTip": "TelephoneDirectory\\header\\data.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-10T18:53:23.876Z",
               "IsPinned": true,
@@ -58,59 +58,59 @@
               "RelativeDocumentMoniker": "TelephoneDirectory\\sourse\\data.c",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\sourse\\data.c",
               "RelativeToolTip": "TelephoneDirectory\\sourse\\data.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIA6wCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-10T19:01:01.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "menu.c",
               "DocumentMoniker": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\sourse\\menu.c",
               "RelativeDocumentMoniker": "TelephoneDirectory\\sourse\\menu.c",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\sourse\\menu.c",
               "RelativeToolTip": "TelephoneDirectory\\sourse\\menu.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-12T07:22:03.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\main.c",
               "RelativeDocumentMoniker": "TelephoneDirectory\\main.c",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\main.c",
               "RelativeToolTip": "TelephoneDirectory\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-10T18:53:07.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "menu.h",
               "DocumentMoniker": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\menu.h",
               "RelativeDocumentMoniker": "TelephoneDirectory\\header\\menu.h",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\menu.h",
               "RelativeToolTip": "TelephoneDirectory\\header\\menu.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-12T07:20:24.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "defines.h",
               "DocumentMoniker": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\defines.h",
               "RelativeDocumentMoniker": "TelephoneDirectory\\header\\defines.h",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\defines.h",
               "RelativeToolTip": "TelephoneDirectory\\header\\defines.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-10T18:53:35.985Z",
               "EditorCaption": ""

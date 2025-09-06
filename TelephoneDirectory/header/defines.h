@@ -2,7 +2,7 @@
 #define DEFINES_H
 
 #define _CRT_SECURE_NO_WARNINGS
-#define NAME_LENGHT 10
-#define PHONE_LENGHT 20
+#define NAME_LENGTH 10
+#define PHONE_LENGTH 20
 
 #endif // !DEFINES_H

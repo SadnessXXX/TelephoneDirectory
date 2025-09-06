@@ -8,8 +8,8 @@
 
 
 typedef struct {
-	char FullName[NAME_LENGHT];
-	char Phone[PHONE_LENGHT];
+	char FullName[NAME_LENGTH];
+	char Phone[PHONE_LENGTH];
 } Entry;
 
 typedef struct {
