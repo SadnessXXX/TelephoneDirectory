@@ -9,13 +9,12 @@
 
 
 
-void init(PhoneBook* book)
-{
+void init(PhoneBook* book){
 	int op = 0;
 
 	for (;;) {
 		
-		printf("Select an operation:\n1. add a record.\n2. Delete a record.\n3. search a record.\n4. Manage a record.\nSelect an action: ");
+		printf("Select an operation:\n1. Add a record.\n2. Show all records.\n3. Delete a record.\n4. search a record.\n5. Manage a record.\nSelect an action: ");
 
 		(void)scanf("%d", &op);
 
@@ -42,8 +41,7 @@ void init(PhoneBook* book)
 }
 
 void clear(PhoneBook* book){
-	for (int i = 0; i < book->size; ++i) {
-		free(book->entryList[i]);
-	}
 	free(book->entryList);
+	book->entryList = NULL;
+	book->size = 0;
 }

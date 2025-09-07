@@ -13,7 +13,7 @@ typedef struct {
 } Entry;
 
 typedef struct {
-	Entry** entryList;
+	Entry* entryList;
 	size_t size;
 } PhoneBook;
 

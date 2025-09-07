@@ -18,7 +18,7 @@ void addRecord(PhoneBook* book){
 	(void)scanf("%19s", phone);
 
 	
-	Entry** tmp = realloc(book->entryList, (book->size + 1) * sizeof * book->entryList);
+	Entry* tmp = realloc(book->entryList, (book->size + 1) * sizeof * book->entryList);
 	if (tmp == NULL) {
 		perror("realloc failed");
 		return;
@@ -26,25 +26,50 @@ void addRecord(PhoneBook* book){
 
 	book->entryList = tmp;
 	
-	book->entryList[book->size] = malloc(sizeof(Entry));
-	
-	strcpy(book->entryList[book->size]->FullName, name);
-	strcpy(book->entryList[book->size]->Phone, phone);
+	strncpy(book->entryList[book->size].FullName, name, NAME_LENGTH - 1);
+	strncpy(book->entryList[book->size].Phone, phone, PHONE_LENGTH - 1);
 
 	book->size++;
 	system("cls");
-}
+} 
 
 void showInfo(PhoneBook* book) {
 	system("cls");
 	for (int i = 0; i < book->size; ++i) {
-		printf("Name: %s\n", book->entryList[i]->FullName);
-		printf("Phone: %s\n", book->entryList[i]->Phone);
+		printf("Name: %s\n", book->entryList[i].FullName);
+		printf("Phone: %s\n\n", book->entryList[i].Phone);
 	}
 	printf("\n");
 }
 
 void removeRecord(PhoneBook* book) {
+	char data[20];
+	
+	printf("Enter name or phone number to delete: ");
+	(void)scanf("%s", &data);
+
+	for (int i = 0; i < book->size; ++i) {
+		if (strcmp(book->entryList[i].FullName, data) == 0 ||
+			strcmp(book->entryList[i].Phone, data) == 0)	{
+
+			for (int j = i; j < book->size-1; ++j) {
+				book->entryList[j] = book->entryList[j + 1];
+			}
+			book->size--;
+			
+			if (book->size > 0) {
+				Entry* tmp = realloc(book->entryList, book->size * sizeof(Entry));
+				book->entryList = tmp;
+			}
+			else {
+				free(book->entryList);
+				book->entryList = NULL;
+			}
+			
+
+			break;
+		}
+	}
 	system("cls");
 }
 
