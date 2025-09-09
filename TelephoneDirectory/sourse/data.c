@@ -74,9 +74,25 @@ void removeRecord(PhoneBook* book) {
 }
 
 void searchRecord(PhoneBook* book) {
+	char pattern[20];
+
+	printf("Pattern for searching name and phone: ");
+	(void)scanf("%s", &pattern);
+
 	system("cls");
+
+	for (int i = 0; i < book->size; ++i) {
+		if (strstr(book->entryList[i].FullName, pattern) != 0 ||
+			strstr(book->entryList[i].Phone, pattern)    != 0) {
+			printf("Match found!\nName: %s\nPhone: %s\n\n", 
+				book->entryList[i].FullName, 
+				book->entryList[i].Phone);
+			
+		}
+	}
 }
 
 void manageRecord(PhoneBook* book){
+
 	system("cls");
 }

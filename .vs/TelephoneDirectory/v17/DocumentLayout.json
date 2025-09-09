@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "TelephoneDirectory\\sourse\\data.c",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\sourse\\data.c",
               "RelativeToolTip": "TelephoneDirectory\\sourse\\data.c",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-10T19:01:01.097Z",
               "IsPinned": true,
@@ -58,11 +58,10 @@
               "RelativeDocumentMoniker": "TelephoneDirectory\\sourse\\menu.c",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\sourse\\menu.c",
               "RelativeToolTip": "TelephoneDirectory\\sourse\\menu.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-12T07:22:03.117Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -72,10 +71,9 @@
               "RelativeDocumentMoniker": "TelephoneDirectory\\header\\data.h",
               "ToolTip": "C:\\dev\\cpp\\TelephoneDirectory\\TelephoneDirectory\\header\\data.h",
               "RelativeToolTip": "TelephoneDirectory\\header\\data.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-10T18:53:23.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T18:53:23.876Z"
             },
             {
               "$type": "Document",
@@ -87,8 +85,7 @@
               "RelativeToolTip": "TelephoneDirectory\\main.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-10T18:53:07.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T18:53:07.628Z"
             },
             {
               "$type": "Document",
@@ -100,8 +97,7 @@
               "RelativeToolTip": "TelephoneDirectory\\header\\menu.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-12T07:20:24.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T07:20:24.555Z"
             },
             {
               "$type": "Document",
@@ -113,8 +109,7 @@
               "RelativeToolTip": "TelephoneDirectory\\header\\defines.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-10T18:53:35.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T18:53:35.985Z"
             }
           ]
         }
