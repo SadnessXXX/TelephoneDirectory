@@ -13,10 +13,3 @@ This phone book allows you to:
 - Manage (edit) records
 
 Data is stored in a dynamic array in memory.
-
-## Compilation
-
-Using GCC:
-
-```bash
-gcc src/*.c -o TelephoneDirectory
