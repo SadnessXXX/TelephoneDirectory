@@ -19,4 +19,4 @@ Data is stored in a dynamic array in memory.
 Using GCC:
 
 ```bash
-gcc src/*.c -o phonebook
+gcc src/*.c -o TelephoneDirectory
